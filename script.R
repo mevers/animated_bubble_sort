@@ -43,4 +43,4 @@ a <- bind_rows(lst, .id = "step") %>%
     transition_manual(step) +
     ease_aes("linear")
 animate(a, end_pause = 10)
-anim_save("animation.png")
+anim_save("animation.gif")
